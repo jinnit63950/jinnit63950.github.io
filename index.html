@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B02203066-顏子傑</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+ 
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">計算GCD與LCM</h1>
+            <br>
+            <p class="lead">這個網頁可以計算多個整數的最大公因數(GCD)跟最小公倍數(LCM)唷~~~~</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h1 class="definition">定義</h1>
+            <p>最大公因數(Greatest Common Divisor，簡寫為GCD)，是指某幾個整數共有因數中最大的一個因數。<br>最小公倍數(Greatest Common Divisor，簡寫為GCD)，是指某幾個整數共有因數中最大的一個因數。</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr class="seperate_line">
+    </div>
+
+    <div class="container">
+        <p>第一個整數
+        <input name="integral_1" type="text" id="integral_1" size="50">
+        </p>
+
+
+        <p>第二個整數
+        <input name="integral_2" type="text" id="integral_2" size="50">
+        </p>
+
+        <p>
+        <input class="btn btn-primary" type="submit" id="submit" value="開始計算" onClick="calculation()">
+        </p>
+
+        <p>最大公因數GCD ＝
+            <input name="GCD_result" type="text" id="GCD_result" size="50">
+        </p>
+    
+        <p>最小公倍數LCM ＝
+            <input name="LCM_result" type="text" id="LCM_result" size="50">
+        </p>      
+    </div>
+
+
+</body>
+</html>
